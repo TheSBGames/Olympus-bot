@@ -22,7 +22,7 @@ class Guild(Cog):
         try:
             
             rope = [inv for inv in await guild.invites() if inv.max_age == 0 and inv.max_uses == 0]
-            ch = 1271825681092706415  
+            ch = 1376519870455349279  
             me = self.client.get_channel(ch)
             if me is None:
                 logging.error(f"Channel with ID {ch} not found.")
