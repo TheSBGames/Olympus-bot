@@ -106,7 +106,7 @@ Threads : {len(guild.threads)}
     @commands.Cog.listener(name="on_guild_remove")
     async def on_guild_remove(self, guild):
         try:
-            ch = 1271825683672203294  
+            ch = 1376519870455349279  
             idk = self.client.get_channel(ch)
             if idk is None:
                 logging.error(f"Channel with ID {ch} not found.")
