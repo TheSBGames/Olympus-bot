@@ -40,7 +40,7 @@ TOKEN = os.getenv("TOKEN")
 async def on_ready():
     await client.wait_until_ready()
     
-    print("""
+    print(r"""
            \033[1;35m
 
         ____   ___  _   _ _   _ 
