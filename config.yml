@@ -15,10 +15,10 @@ Github: https://github.com/sonujana26/Discord-AI-Chatbot
 
 TRIGGER:
   - chatbot
-  - olympus
-  - &
-  - olympus-ai
-  - soniye 
+  - SB Moderation
+  - $
+  - SB Moderation-ai
+  - sun 
 
 AUTO_SHARDING: true
 
