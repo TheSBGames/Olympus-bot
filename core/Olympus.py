@@ -125,5 +125,5 @@ class Olympus(commands.AutoShardedBot):
 
 def setup_bot():
     intents = discord.Intents.all()
-    bot = SB Moderation (intents=intents)
+    bot = olympus(intents=intents)
     return bot
