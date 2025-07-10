@@ -59,7 +59,7 @@ class Olympus(commands.AutoShardedBot):
         await self.change_presence(status=discord.Status.do_not_disturb,
                                    activity=discord.Activity(
                                        type=discord.ActivityType.playing,
-                                       name='$help | .gg/odx'))
+                                       name='SB'))
 
     async def send_raw(self, channel_id: int, content: str,
                        **kwargs) -> typing.Optional[discord.Message]:
@@ -125,5 +125,5 @@ class Olympus(commands.AutoShardedBot):
 
 def setup_bot():
     intents = discord.Intents.all()
-    bot = Olympus(intents=intents)
+    bot = SB Moderation (intents=intents)
     return bot
